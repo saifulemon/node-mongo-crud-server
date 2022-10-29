@@ -33,4 +33,18 @@
  * 2. on submit get form data and create user object
  * 3. server side: Create user Post Method to receive data on the backend server
  * 4. on Client side: set fetch with Post Method, headers and body
+ * 5. make sure you return a json from the post api
+ * 
+ * 
+ * 
+ *-----------------------------
+ * load data to the client side
+ * ----------------------------
+ * 1. create a get api on the server side
+ * 2. create a query object
+ * 3. collection.find(query)
+ * 4. cursor.toArray
+ * 5. return the result
+ * 6. from client useEffect function and display like you hoave done before
+ * 
  * ***/
